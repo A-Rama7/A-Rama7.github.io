@@ -1,0 +1,356 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Droid_sans;
+    font-size: 0.8rem;
+    color: #85898a;
+}
+@font-face {
+    font-family: Oswald;
+    src: url(fonts_/wsl$/Ubuntu-20.04/home/andry/W-INT-501-PAR-1-1-maquetteintro-andry.ramanana/fonts_/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Droid_sans;
+    src: url(fonts_/wsl$/Ubuntu-20.04/home/andry/W-INT-501-PAR-1-1-maquetteintro-andry.ramanana/fonts_/DroidSans.ttf);
+}
+@font-face {
+    font-family: Droid_serif;
+    src: url(fonts_/wsl$/Ubuntu-20.04/home/andry/W-INT-501-PAR-1-1-maquetteintro-andry.ramanana/fonts_/DroidSerif-Regular.ttf);
+}
+
+ol, ul {
+	list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ______________________________________________________________ */
+p{
+    font-family: Droid_sans;
+    line-height: 1.3rem;
+    font-size: 0.7rem;
+}
+.header{
+    background-image: url(./assets/assets/misc/grille.png);
+    height: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+.my_nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: 10rem;
+    padding-bottom: 3rem;
+}
+.Menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: inherit;
+    gap: 3rem;
+}
+.title_list{
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 1rem;
+    padding-left: 0.3rem;
+}
+
+.underline{
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.6rem;
+}
+.hotel{
+    background-color: #f76900;
+}
+.restaurants{
+    background-color: #fcd04a;
+}
+.services{
+    background-color: #b9d482;
+}
+.activites{
+    background-color: #3d92c2;
+}
+.plus{
+    background-color: #c078d0;
+}
+
+.list{
+    padding: 0.3rem 0.3rem 0;
+}
+li{
+    margin: 0.5rem 1.5rem 0.5rem 0;
+    font-size: 0.65rem;
+}
+
+.line{
+    display: inline-block;
+    background-color: rgb(240, 240, 240);
+    height: 0.1rem;
+    width: 100%;
+}
+
+.video{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.slogan{
+    text-align: center;
+    background-image: url(./assets/assets/misc/grille.png);
+    margin-top: 0.5rem;
+    padding: 1.8rem;
+}
+.title_slogan{
+    font-size: 1.2rem;
+    font-family: Droid_serif;
+}
+
+.wrapper{
+    display: flex;
+    margin-left: 16%;
+    margin-right: 16%;
+    /* border: 0.1rem solid blanchedalmond; */
+    justify-content: space-around;
+    height: 25rem;
+    margin-bottom: 1rem;
+}
+.article{
+    display: flex;
+    width: 100%;
+    height: 23rem;
+    /* gap: 5rem; */
+}
+.title_article{
+    color: #e78452;
+    font-size: 1.3rem;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.col
+{
+    /* border: 0.1rem solid rgb(96, 34, 255); */
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.golf{
+    width: 15rem;
+    border: 1px solid rgb(208, 208, 208);
+    padding-right: 1.5rem;
+}
+
+.accro_fast{
+    width: 25rem;
+    padding-bottom: 0;
+    padding-left: 0rem;
+    height: max-content;
+}
+.accro{
+    margin: 0;
+    padding-top: 0;
+}
+.fast{
+    margin: 0;
+    padding-top: 0;
+    min-height: min-content;
+}
+
+.commentaire{
+    width: 100%;
+}
+
+.date_publication{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 0.6rem;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(191, 191, 185);
+    font-family: Droid_serif;
+}
+.lire_plus{
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    font-family: Droid_serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+.tableau{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+.cell{
+    border:1px solid rgb(238, 238, 238) ;
+    padding-right: 0px;
+    padding: 0.5rem;
+    box-shadow :1px 1px 10px rgb(241, 241, 241);
+}
+
+.sct3{
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    background-image: url(./assets/assets/misc/grille.png);
+    width: 100%;
+    height:12rem;
+    margin-top: 0.5rem;
+    padding-top: 2rem;
+
+}
+
+.brd{
+    display: flex;
+    width:  15%;
+    flex-direction: column;
+}
+.sct3_title{
+    font-family: Oswald;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+
+.content_contact{
+    display: flex;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-family: Droid_sans;
+}
+
+.accueil{
+    display: flex;
+}
+.jardiland{
+    margin-left: 1.8rem;
+    margin-top: -13px;
+}
+
+.telephone{
+    display: flex;
+}
+.contact_mail{
+    display: flex;
+    text-decoration: underline;
+
+}
+.support_mail{
+    display: flex;
+    text-decoration: underline;
+}
+
+.content_billet{
+    font-family: Droid_sans;
+    display: flex;
+    margin-top: 0.6rem;
+    padding-left: 1rem;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.date{
+    word-spacing: 3px;
+    margin-bottom: -10px;
+}
+.content_bold{
+    font-weight: bolder;
+}
+.com{
+    text-decoration: underline;
+    font-size: 0.65rem;
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+    margin-top: 1rem;
+    padding-left: 18%;
+    justify-content: space-between;
+    padding-right: 18%;
+    padding-bottom: 2rem;
+}
+
+.nav_footer{
+    flex-direction: row;
+}
+.nav_footer li{
+    border-right: 1px solid black;
+    margin: 0;
+    margin-right: 0.5rem;
+    padding-right: 0.5rem;
+}
+.nav_footer li:last-child{
+border: none;
+}
+.zone{
+    flex-direction: column;
+}
+
+.sprite_link{
+    display: flex;
+}
+
+.sprite_list{
+    display: flex;
+    flex-direction: row;
+
+}
+ .sprite_list li{
+    margin: 0.5rem 0.5rem 0.5rem 0;
+ }
+
+ .copyright{
+     width: 10px;
+ }
